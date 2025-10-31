@@ -18,6 +18,11 @@ public class ClasseAtleta extends ClassePessoa{
 	public void setModalidade(String modalidadePar) {
 		this.modalidade = modalidadePar;
 	}
-	
+	@Override
+	public void mostrarInformacoes(){
+		System.out.println("Dados do Atleta");
+		super.mostrarInformacoes();
+		System.out.println("_______________");
+	}
 	
 }

@@ -18,4 +18,10 @@ public class ClasseTerinador extends ClassePessoa{
 	public String getEspecialidade(){
 		return especialidade;
 	}
+	@Override
+	public void mostrarInformacoes(){
+		System.out.println("Dados de Treinador");
+		super.mostrarInformacoes();
+		System.out.println("__________________");
+	}
 }

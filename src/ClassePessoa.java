@@ -37,6 +37,10 @@ public class ClassePessoa {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	
+	public void mostrarInformacoes(){
+		System.out.println(id);
+		System.out.println(nome);
+		System.out.println(idade);
+	}
 
 }
